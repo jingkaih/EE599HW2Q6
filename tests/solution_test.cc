@@ -18,7 +18,7 @@ TEST(IsPalindromeShould, ReturnTrue) {
 }
 TEST(IsApproxPalindromeShould, ReturnTrue) {
   Solution solution;
-  std::string str = "! a,w?o (w a";
+  std::string str = "! a,w6?o -6(w a";
   bool actual = solution.IsApproxPalindrome(str);
   bool expected = true;
   EXPECT_EQ(expected, actual);

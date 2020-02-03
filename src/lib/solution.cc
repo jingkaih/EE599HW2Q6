@@ -15,7 +15,7 @@ bool Solution::IsApproxPalindrome(std::string str)
   std::string str_refined;
   for(auto s : str)
   {
-    if(isalpha(s))
+    if(isalnum(s))
     str_refined.push_back(s);
   }
   return IsPalindrome(str_refined);
